@@ -13,7 +13,9 @@ function CheckoutProduct({ id, image, title, price, rating }) {
         id: id,
       });
     };
-    return (
+  return (
+    <div>
+      
       <div className="checkoutProduct">
         <img className="checkoutProduct__image" src={image} alt="" />
         <div className="checkoutProduct__info">
@@ -26,13 +28,17 @@ function CheckoutProduct({ id, image, title, price, rating }) {
         <div className="checkoutProduct__rating">
           {Array(rating)
             .fill()
-            .map((_,i) => (
+            .map((_, i) => (
               <StarIcon className="rating__star" />
             ))}
-            </div>
-            <button onClick={removeFromBasket}> Remove this item</button>
+        </div>
       </div>
-    );
+      <div>
+        <button className="product__remove" onClick={removeFromBasket}> Remove this item</button>
+      </div>
+      
+    </div>
+  );
 }
 
 export default CheckoutProduct
