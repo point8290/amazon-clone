@@ -2,6 +2,7 @@ import React from "react";
 import "./Home.css";
 import Product from "./Product";
 function Home() {
+  
   return (
     <div className="home">
       <div className="home__container">
@@ -46,22 +47,53 @@ function Home() {
             id="3254354345"
             title="New Apple iPad Pro (12.9-inch, Wi-Fi, 128GB) - Silver (4th Generation)"
             price={598.99}
-            rating={4}
+            rating={2}
             image="https://images-na.ssl-images-amazon.com/images/I/816ctt5WV5L._AC_SX385_.jpg"
           />
         </div>
         <div className="home__row">
           <Product
-            id="90829332"
+            id="90829672"
             title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor - Super Ultra Wide Dual WQHD 5120 x 1440"
             price={1094.98}
-            rating={4}
+            rating={3}
             image="https://images-na.ssl-images-amazon.com/images/I/6125mFrzr6L._AC_SX355_.jpg"
+          />
+          <Product
+            id="90820332"
+            title="Intex Jogger B Multimedia Headphones"
+            price={109.8}
+            rating={4}
+            image="https://images-na.ssl-images-amazon.com/images/I/81Z7xJF2kML._SL1500_.jpg"
+          />
+        </div>
+        <div className="home__row">
+          <Product
+            id="908340992"
+            title="Tenda AC10 1200Mbps Wireless Smart Dual-Band Gigabit WiFi Router (Black)"
+            price={904.8}
+            rating={5}
+            image="https://images-na.ssl-images-amazon.com/images/I/51Qq5tFiBLL._SL1000_.jpg"
+          />
+          <Product
+            id="99020992"
+            title="jioFi JDR740 (Dongle) 150Mbps Wireless 4G Portable Router"
+            price={45.8}
+            rating={5}
+            image="https://images-na.ssl-images-amazon.com/images/I/417aHoqozHL._SL1371_.jpg"
+          />
+          <Product
+            id="99020452"
+            title="Quantum QHM8106 USB to RJ45 Ethernet LAN Adapter (White)"
+            price={47.1}
+            rating={3}
+            image="https://images-na.ssl-images-amazon.com/images/I/51CxNvkuoqL._SL1000_.jpg"
           />
         </div>
       </div>
     </div>
   );
+    
 }
 
 export default Home;

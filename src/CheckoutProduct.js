@@ -10,7 +10,7 @@ function CheckoutProduct({ id, image, title, price, rating }) {
     const removeFromBasket = () => {
       dispatch({
         type: "REMOVE_FROM_BASKET",
-        id: id,
+        id:id,
       });
     };
   return (
@@ -25,6 +25,7 @@ function CheckoutProduct({ id, image, title, price, rating }) {
             <strong>{price}</strong>
           </p>
         </div>
+
         <div className="checkoutProduct__rating">
           {Array(rating)
             .fill()
