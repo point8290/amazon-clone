@@ -28,12 +28,7 @@
     color: #111;
 }
 .subtotal > button:hover{
-    background:rgb(204, 200, 200);
-    border-radius: 2px;
-    width: 100%;
-    height: 30px;
-    border: 2px solid;
-    margin-top: 10px;
-    border-color:black;
-    color: #111;
+    background-color:black;
+    color:white;
+    transition-duration: 0.8s;
 }

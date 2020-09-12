@@ -64,3 +64,8 @@ border-radius: 2px;
    border-color: #a88734 #9c7e31 #846a29;
    color: #111;
 }
+.login__registerButton:hover,.login__signInButton:hover{
+    background-color:black;
+    color:white;
+    transition-duration: 0.8s;
+}

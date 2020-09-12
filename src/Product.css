@@ -19,6 +19,7 @@
    object-fit: contain;
    margin-bottom: 15px;
 }
+
 .product__button{
    background-color: #f0c14b;
    border:1px solid;
@@ -27,13 +28,11 @@
    color: #111;
 }
 .product__button:hover {
-   background-color:rgb(204, 200, 200);
-   border:2px solid;
-   border-radius: 2px;
-   margin-top: 10px;
-   border-color: black;
-   color: #111;
+    background-color:black;
+    color:white;
+    transition-duration: 0.8s;
 }
+
 
 .product__info{
    /* width:100%; */

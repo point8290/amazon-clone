@@ -15,12 +15,9 @@
     
 }
 .product__remove:hover{
-    background:rgb(204, 200, 200);
-    border-radius: 2px;
-    border:2px solid;
-    margin-top: 10px;
-    border-color: black;
-    color: #111;
+    background-color:black;
+    color:white;
+    transition-duration: 0.8s;
 }
 
 
